@@ -344,8 +344,11 @@ footer {
 
 /* Mobile Layout Handling */
 @media (max-width: 991px) {
-    .header-container { left: 1rem; right: 1rem; padding: 6px 16px; }
-    .header-center-content { margin-left: auto; }
+    .header-container { left: 1rem; right: 1rem; padding: 6px 16px; gap: 0.5rem; }
+    .header-center-content { margin-left: auto; overflow: hidden; }
+    .header-nav-items { gap: 0.25rem; overflow: hidden; flex-shrink: 1; min-width: 0; }
+    .nav-link.text-link { padding: 6px 8px; font-size: 0.8rem; }
+    .hero-section { background-attachment: scroll; background-size: contain; background-position: center top; }
     .newsletter-form { flex-direction: column; }
     .newsletter-form button { padding: 12px; }
     .about-section { padding: 2rem 1.5rem; }
@@ -377,6 +380,14 @@ footer {
     .feature-showcase {
         gap: 3.5rem; 
     }
+}
+
+@media (max-width: 480px) {
+    .header-container { left: 0.5rem; right: 0.5rem; padding: 5px 10px; gap: 0.25rem; }
+    .header-brand h3 { font-size: 0.95rem; }
+    .header-brand::after { margin-left: 0.5rem; }
+    .nav-link.text-link { padding: 5px 6px; font-size: 0.75rem; letter-spacing: 0; }
+    .hero-section { background-size: contain; background-position: center top; min-height: 60vh; }
 }
 
 @media (min-width: 992px) {
