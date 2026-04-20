@@ -3,143 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kyale</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" type="image/jpg" href="images/favicon.jpg">
-    <link rel="preload" href="images/sebas.png.jpg" as="image">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>AeroBrew | Portable Espresso Maker</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Slab:wght@300;400&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script defer data-domain="kyale.vercel.app" src="https://plausible.io/js/script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
 </head>
-<body>
-    <header class="header-container">
-        <div class="header-brand" data-tooltip="Kyale">
-            <h3>Kyale</h3>
-        </div>
+<body id="top">
+
+    <div class="header-container">
+        <a href="#top" class="header-brand">
+            <h3>☕ AeroBrew</h3>
+        </a>
+        
         <div class="header-center-content">
             <div class="header-nav-items">
-                <a href="#home" class="nav-link" aria-label="Home" data-tooltip="Home">
-                    <i data-feather="home"></i>
-                </a>
-                <a href="#about" class="nav-link" aria-label="About" data-tooltip="About">
-                    <i data-feather="user"></i>
-                </a>
-                <a href="#projects" class="nav-link" aria-label="Projects" data-tooltip="Projects">
-                    <i data-feather="briefcase"></i>
-                </a>
-                <a href="#featured" class="nav-link" aria-label="Highlights" data-tooltip="Highlights">
-                    <i data-feather="star"></i>
-                </a>
-                <a href="https://www.goodreads.com/kyale00" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Goodreads Bookshelf" data-tooltip="Bookshelf">
-                    <i data-feather="book-open"></i>
-                </a>
-                <a href="#contact" class="nav-link" aria-label="Contact" data-tooltip="Contact">
-                    <i data-feather="mail"></i>
-                </a>
-            </div>
-            <div class="search-input-wrapper">
-                 <input type="search" id="navbar-search-input-field" placeholder="Search page content...">
+                <a href="#features" class="nav-link text-link">Features</a>
+                <a href="#specs" class="nav-link text-link">Specs</a>
+                <a href="#order" class="nav-link text-link">Pre-Order</a>
             </div>
         </div>
-        <a href="https://www.instagram.com/kyalemj/" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Instagram" data-tooltip="Instagram">
-            <img src="images/ig.png" alt="Instagram">
-        </a>
-        <a href="https://x.com/kyale4mj/" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="X (Twitter)" data-tooltip="X (Twitter)">
-            <img src="images/x.png" alt="X (Twitter)">
-        </a>
-         <button id="search-toggle" aria-label="Toggle Search" >
-             <i data-feather="search"></i>
-        </button>
-    </header>
+    </div>
 
-    <section id="home" class="hero-section" aria-labelledby="main-hero-heading">
+    <section class="hero-section">
         <div class="hero-content">
-            <h1 id="main-hero-heading" class="main-hero-heading">WELCOME</h1>
-            <p class="hero-subheading">I'm Kyale.I love coding, reading
-            and <br> watching sci-fi movies.I trade too</p>
-            <a href="#about" class="hero-cta">VIEW MY WORK</a>
-        </div>
-        <div class="scroll-down" >
-            <i class="fas fa-chevron-down"></i>
+            <h1 id="main-hero-heading" class="main-hero-heading hero-text-animate">Barista Quality.<br>Anywhere.</h1>
+            <p class="hero-subheading hero-text-animate">AeroBrew is the world's first AI-powered portable espresso maker. Fresh, perfect coffee on the mountain, in the office, or on the road.</p>
+            <a href="#features" class="hero-cta hero-text-animate">Discover More</a>
         </div>
     </section>
 
     <main>
-        <section id="about" class="about-section" aria-labelledby="about-heading">
-            <h2 id="about-heading">About me</h2>
-            <p>I'm Kyale a software engineering undergrad. I enjoy coding. In my free time, I read physics books. I'm also learning AI. I watch sci-fi movies,  on space and tech.I trade also, it's been humbling me alot and am thinking of dumping it.My strategy is SMC.
-            </p>
-        </section>
-        <section id="what-i-do" class="what-i-do-section" aria-labelledby="what-i-do-heading">
-            <h2 id="what-i-do-heading">What i do</h2>
-            <ul class="what-i-do-list">
-        <li>Web dev</li>
-        <li>Machine learning</li>
-        <li>Trading</li>
-       
-       
-            </ul>
+        
+        <section id="features" class="feature-showcase scroll-section">
             
-        </section>
-        <section id="projects" class="projects-section" aria-labelledby="projects-heading">
-            <h2 id="projects-heading">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-item">
-                    <h3></h3>
-                    <p>currently no project</p>
-                   
+            <div class="showcase-row">
+                <div class="showcase-image">
+                    <img src="images/feature-battery.png" alt="Battery technology close up">
                 </div>
-                <div class="project-item">
-                    <h3></h3>
-                    <p>
-                    </p>
+                <div class="showcase-text">
+                    <h3>All-Day Battery</h3>
+                    <p>Power through your day with enough juice for 15 full shots. When you finally run low, our proprietary USB-C fast-charging architecture gets you back to 100% in under an hour.</p>
                 </div>
             </div>
-        </section>
-        <section id="featured" class="featured-content-section" aria-labelledby="featured-heading">
-            <h2 id="featured-heading">Highlights</h2>
-            <div class="featured-items-grid">
-                <div class="featured-item">
-                    <h3>Favourite movie: Interstellar</h3>
-                    <img src="images/inter.jpg" alt="Poster of the movie Interstellar" loading="lazy">
-                    <p>Hi earth its day 0.15!</p>
+
+            <div id="specs" class="showcase-row reverse scroll-section" style="scroll-margin-top: 100px;">
+                <div class="showcase-image">
+                    <img src="images/feature-extraction.jpg" alt="Hot espresso pouring">
                 </div>
-                <div class="featured-item">
-                    <h3>Favourite series: The 100</h3>
-                    <img src="images/100.jpg" alt="Promotional image for The 100 TV series" loading="lazy">
-                    <p>It has a lot of futuristic tech, which I love. A.L.I.E an AI, creates the City of Light to help people escape pain but at the cost of their free will..</p>
-                </div>
-                <div class="featured-item">
-                    <h3>Favourite artist</h3>
-                    <img src="images/swift.jpg" alt="Image of Taylor Swift" loading="lazy">
-                    <p>I'm a swiftie.I know most of her songs and have achieved top 0.25% listener recognition on youtube. Such an achievement hehe.</p>
+                <div class="showcase-text">
+                    <h3>Smart Extraction</h3>
+                    <p>Great espresso requires absolute thermal stability. AeroBrew reads water temperature 100 times per second, locking in a flawless 93°C extraction from the first drop to the last.</p>
                 </div>
             </div>
-        </section>
-        <section id="contact" class="contact-section" aria-labelledby="contact-heading">
-            <h2 id="contact-heading" class="contact-title">Get In Touch</h2>
-            <div class="contact-icons">
-                <a href="https://www.instagram.com/kyalemj/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="images/ig.png" alt="Instagram" loading="lazy"></a>
-                <a href="https://x.com/kyale4mj/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><img src="images/x.png" alt="X (Twitter)"></a>
-                <a href="https://github.com/fnj65767788" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="images/git.png" alt="GitHub" loading="lazy"></a>
-                <a href="mailto:kyalefx@gmail.com" aria-label="Email"><img src="images/gmail.png" alt="Gmail" loading="lazy"></a>
+
+            <div class="showcase-row">
+                <div class="showcase-image">
+                    <img src="images/feature-travel.png" alt="Sleek black travel backpack">
+                </div>
+                <div class="showcase-text">
+                    <h3>Built for the Road</h3>
+                    <p>Engineered from aerospace-grade aluminum, it weighs just 1.2 lbs. The footprint is identical to a standard water bottle, slipping effortlessly into your daily carry.</p>
+                </div>
             </div>
+
+        </section>
+
+        <section id="order" class="about-section scroll-section">
+            <h2>Join the Coffee Revolution</h2>
+            <p>Subscribe to our newsletter for exclusive early-bird discounts, pre-order dates, and expert brewing tips sent straight to your inbox.</p>
+            
+            <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Welcome to the club!');">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
         </section>
     </main>
 
     <footer>
-        © MJ | All rights reserved | 2025
+        <p>&copy; 2026 AeroBrew Technologies</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
-
