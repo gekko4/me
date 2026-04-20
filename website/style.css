@@ -350,6 +350,11 @@ footer {
     .newsletter-form button { padding: 12px; }
     .about-section { padding: 2rem 1.5rem; }
     .hero-content { margin-top: 70px; padding: 0 1.5rem; text-align: left; }
+    .hero-section {
+        background-attachment: scroll;
+        background-size: contain;
+        background-position: center top;
+    }
     
     .showcase-row, 
     .showcase-row.reverse {
@@ -386,4 +391,9 @@ footer {
         padding-left: calc(clamp(15px, 4vw, 40px) + clamp(0.8rem, 2.5vw, 1.5rem)); 
         max-width: 50vw; 
     }
+}
+
+@media (max-width: 480px) {
+    .header-nav-items { gap: 0.1rem; }
+    .nav-link.text-link { padding: 6px 8px; font-size: 0.75rem; }
 }
